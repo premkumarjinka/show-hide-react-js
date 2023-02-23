@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.vary {
+  background-color: #fddddb;
+
+  height: 50px;
+
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 18px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-evenly;
+  width: 50%;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 10px;
+  height: 70px;
+}
+.head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-button {
+  height: 70px;
+  margin: 20px;
+}
+.btn {
+  margin-bottom: 20px;
+  height: 30px;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  color: #dd1264;
+}
+
+.second-button {
+  height: 70px;
+  margin: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+  }
+  .bg-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .button-container {
+    flex-direction: row;
+  }
+}
